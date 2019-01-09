@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public class Building {
     private String name;
     private String address;
+    //PT -- Good
     protected ArrayList<Person> occupants = new ArrayList<Person>();;
 
     /**
@@ -47,6 +48,7 @@ public class Building {
      * adds a person occupant to the occupants list
      * @param person person object that should be added
      */
+    //PT -- have these return a boolean, in case they fail (no room in the building, person doesn't exist to remove)
     public void addOccupant(Person person)
     {
         occupants.add(person);
