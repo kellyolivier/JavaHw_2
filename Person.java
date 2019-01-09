@@ -75,6 +75,7 @@ public class Person {
      */
     public void setPhoneNumber(String phoneNumber)
     {
+        //Make sure you're getting a valid phone number. -2
         this.phoneNumber = phoneNumber;
     }
 
